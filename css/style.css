@@ -1,0 +1,56 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    margin: 75px 0 50px 0;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2, h3, p {
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+img {
+    width: 40%;
+    height: 200px;
+}
+
+.third img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #006dc7;
+    padding: 15px;
+}
+
+.col-lg-6, .col-lg-4 {
+    text-align: center;
+    padding: 30px;
+}
